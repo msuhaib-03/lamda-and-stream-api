@@ -1,10 +1,10 @@
 # lamda-and-stream-api
 Lambda Expressions & Stream API in Java
-#Overview
+# Overview
 This project demonstrates Java 8+ Lambda Expressions and the Stream API, which enable a functional programming style in Java.
 Instead of writing verbose loops, you can use declarative pipelines to filter, transform, and collect data.
 
-#Features
+# Features
 Lambda Expressions: Anonymous functions for concise code.
 Functional Interfaces: Interfaces with a single abstract method (e.g., Predicate, Function, Consumer).
 Stream API: Process collections with operations like filter, map, reduce, and collect.
@@ -12,14 +12,14 @@ Method References: Shorter syntax for calling existing methods.
 Parallel Streams: Speed up processing using multiple threads.
 Project Structure
 
-#Copy code
+# Copy code
 src/
  ├── Main.java              # Entry point
  ├── LambdaExamples.java    # Basic lambda usage
  ├── StreamExamples.java    # Stream API examples
  └── model/
       └── Person.java       # Sample data model
-#Requirements
+# Requirements
 Java 8 or higher
 Any Java IDE (IntelliJ IDEA, Eclipse, VS Code) or CLI tools
 📜 Example Code
@@ -39,7 +39,7 @@ public class LambdaExamples {
         greet.sayHello("Alice");
     }
 }
-#Stream API
+# Stream API
 Java
 
 Copy code
@@ -60,7 +60,7 @@ public class StreamExamples {
         System.out.println(result); // Output: [ALICE]
     }
 }
-#Key Concepts
+# Key Concepts
 Lambda Syntax
 Java
 
