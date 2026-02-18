@@ -27,11 +27,16 @@ public class lambda {
 //            obj.show(); // This will call the show method of B and print "Hello World"
 
         // NOW LET'S SEE HOW TO USE LAMBDA EXPRESSION TO IMPLEMENT THE SHOW METHOD OF A IN A MORE CONCISE WAY THAN ANONYMOUS CLASS //
-        A obj = new A(){
-            public void show() {
-                System.out.println("Hello World");
-            }
-        }; // This is an anonymous class that implements A and overrides the show method to print "Hello World"
-        obj.show(); // This will call the show method of the anonymous class and print "Hello World"
+//        A obj = new A(){
+//            public void show() {
+//                System.out.println("Hello World");
+//            }
+//        }; // This is an anonymous class that implements A and overrides the show method to print "Hello World"
+//        obj.show(); // This will call the show method of the anonymous class and print "Hello World"
+
+
+        // NOW LET'S SEE HOW TO USE LAMBDA EXPRESSION TO IMPLEMENT THE SHOW METHOD OF A IN A MORE CONCISE WAY THAN ANONYMOUS CLASS//
+        A obj = () -> System.out.println("Hello World!");
+        obj.show(); // This will call the show method of the lambda expression and print "Hello World!"
     }
 }
